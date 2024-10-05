@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "id": "englishBibleGroup",
+      "name": "英语查经小组",
+      "pic": "ministry/cover_英文查经小组.jpg",
+      "time": "周一下午五点",
+      "host": "待定",
+      "contact": "+1(415)-xxx-xxxx",
+      "shortDesc": "英语查经小组为希望通过英语学习圣经的信徒提供一个共同成长的平台。在小组中，大家通过研读圣经、讨论经文、祷告和彼此分享，深入理解神的话语，并提高英语表达能力。无论您是母语者还是英语学习者，查经小组都是一个属灵成长与语言学习相结合的良好机会，同时也促进了跨文化的信仰交流与团契生活。",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean vehicula maximus eros, sit amet convallis ex tristique sed. Nam vehicula, justo eu aliquam dignissim, orci dolor luctus risus, nec convallis enim felis ut est. In interdum erat eget ipsum dapibus, ut egestas purus interdum. Proin vehicula vestibulum nulla, sit amet dignissim enim consequat id. Aenean et lacus libero. Fusce non est vitae nulla vehicula malesuada eget ac eros. Curabitur bibendum, sem a condimentum faucibus, lorem mi bibendum orci, ut consequat erat turpis vitae enim. Nunc facilisis purus sit amet leo posuere, vel lacinia tortor dictum. Maecenas pharetra malesuada eros, eget venenatis justo. Vivamus vehicula aliquam risus, ac ultricies elit pharetra vel. Phasellus gravida erat ac urna congue, sed tempor justo egestas. Sed malesuada, eros non malesuada sollicitudin, nisi velit vehicula nulla, nec volutpat arcu dolor at enim. Ut mollis justo purus, sit amet viverra augue venenatis non. \nNam sodales, lacus et cursus condimentum, odio odio pellentesque ligula, sit amet varius eros magna quis ligula. Aenean gravida ipsum et ipsum consequat interdum. Nullam at leo nec felis tincidunt aliquet. Sed in tempor felis. Integer sit amet sodales lorem. Suspendisse eu massa risus. Cras vulputate metus eu tortor euismod, ac faucibus mi maximus. Nulla suscipit interdum convallis. Donec rhoncus felis at viverra aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam elementum, velit in tincidunt laoreet, justo magna fringilla ipsum, vel vulputate diam lectus id ex. Proin dictum viverra libero, at dictum tortor viverra sit amet."
+    },
+    {
+      "id": "adult",
+      "name": "成人主日学",
+      "pic": "ministry/cover_成人主日学.jpg",
+      "time": "周一下午五点",
+      "host": "待定",
+      "contact": "+1(415)-xxx-xxxx",
+      "shortDesc": "成人主日学为成年信徒提供一个系统学习圣经和深入探讨信仰的机会。通过各类主题课程、圣经解析和小组讨论，学员们能够更全面地理解神的话语，并在日常生活中应用。课程内容涵盖基要信仰、基督徒生活实践、神学及属灵成长，旨在帮助信徒建立坚实的信仰根基，提升灵命，并面对现实中的挑战。",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean vehicula maximus eros, sit amet convallis ex tristique sed. Nam vehicula, justo eu aliquam dignissim, orci dolor luctus risus, nec convallis enim felis ut est. In interdum erat eget ipsum dapibus, ut egestas purus interdum. Proin vehicula vestibulum nulla, sit amet dignissim enim consequat id. Aenean et lacus libero. Fusce non est vitae nulla vehicula malesuada eget ac eros. Curabitur bibendum, sem a condimentum faucibus, lorem mi bibendum orci, ut consequat erat turpis vitae enim. Nunc facilisis purus sit amet leo posuere, vel lacinia tortor dictum. Maecenas pharetra malesuada eros, eget venenatis justo. Vivamus vehicula aliquam risus, ac ultricies elit pharetra vel. Phasellus gravida erat ac urna congue, sed tempor justo egestas. Sed malesuada, eros non malesuada sollicitudin, nisi velit vehicula nulla, nec volutpat arcu dolor at enim. Ut mollis justo purus, sit amet viverra augue venenatis non. \nNam sodales, lacus et cursus condimentum, odio odio pellentesque ligula, sit amet varius eros magna quis ligula. Aenean gravida ipsum et ipsum consequat interdum. Nullam at leo nec felis tincidunt aliquet. Sed in tempor felis. Integer sit amet sodales lorem. Suspendisse eu massa risus. Cras vulputate metus eu tortor euismod, ac faucibus mi maximus. Nulla suscipit interdum convallis. Donec rhoncus felis at viverra aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam elementum, velit in tincidunt laoreet, justo magna fringilla ipsum, vel vulputate diam lectus id ex. Proin dictum viverra libero, at dictum tortor viverra sit amet."
+    },
+    {
+      "id": "pray",
+      "name": "祷告小组",
+      "pic": "ministry/cover_祷告小组.JPG",
+      "time": "周一下午五点",
+      "host": "待定",
+      "contact": "+1(415)-xxx-xxxx",
+      "shortDesc": "祷告小组是一个专门为信徒聚集在一起共同祷告的团体，旨在通过祷告彼此支持，寻求神的引领和帮助。在小组中，大家分享个人和家庭的代祷事项，为教会、社区及全球需要祷告。通过持续的祷告与信心操练，信徒们更加亲近神，经历祂的同在与应许，同时也在属灵生命中彼此建立和鼓励。",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean vehicula maximus eros, sit amet convallis ex tristique sed. Nam vehicula, justo eu aliquam dignissim, orci dolor luctus risus, nec convallis enim felis ut est. In interdum erat eget ipsum dapibus, ut egestas purus interdum. Proin vehicula vestibulum nulla, sit amet dignissim enim consequat id. Aenean et lacus libero. Fusce non est vitae nulla vehicula malesuada eget ac eros. Curabitur bibendum, sem a condimentum faucibus, lorem mi bibendum orci, ut consequat erat turpis vitae enim. Nunc facilisis purus sit amet leo posuere, vel lacinia tortor dictum. Maecenas pharetra malesuada eros, eget venenatis justo. Vivamus vehicula aliquam risus, ac ultricies elit pharetra vel. Phasellus gravida erat ac urna congue, sed tempor justo egestas. Sed malesuada, eros non malesuada sollicitudin, nisi velit vehicula nulla, nec volutpat arcu dolor at enim. Ut mollis justo purus, sit amet viverra augue venenatis non. \nNam sodales, lacus et cursus condimentum, odio odio pellentesque ligula, sit amet varius eros magna quis ligula. Aenean gravida ipsum et ipsum consequat interdum. Nullam at leo nec felis tincidunt aliquet. Sed in tempor felis. Integer sit amet sodales lorem. Suspendisse eu massa risus. Cras vulputate metus eu tortor euismod, ac faucibus mi maximus. Nulla suscipit interdum convallis. Donec rhoncus felis at viverra aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam elementum, velit in tincidunt laoreet, justo magna fringilla ipsum, vel vulputate diam lectus id ex. Proin dictum viverra libero, at dictum tortor viverra sit amet."
+    },
+    {
+      "id": "fellowship",
+      "name": "团契小组",
+      "pic": "ministry/cover_团契小组.jpg",
+      "time": "周一下午五点",
+      "host": "待定",
+      "contact": "+1(415)-xxx-xxxx",
+      "shortDesc": "团契小组是教会内的一个小型信仰社区，旨在通过定期聚会、圣经学习、祷告和彼此分享，帮助成员在信仰上共同成长。小组成员不仅在灵命上互相扶持，也在生活中彼此关怀。根据年龄、兴趣或生活阶段的不同，教会提供多样化的团契小组，帮助每位信徒更深入地与神和他人建立关系，实践爱与服事的生活。",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean vehicula maximus eros, sit amet convallis ex tristique sed. Nam vehicula, justo eu aliquam dignissim, orci dolor luctus risus, nec convallis enim felis ut est. In interdum erat eget ipsum dapibus, ut egestas purus interdum. Proin vehicula vestibulum nulla, sit amet dignissim enim consequat id. Aenean et lacus libero. Fusce non est vitae nulla vehicula malesuada eget ac eros. Curabitur bibendum, sem a condimentum faucibus, lorem mi bibendum orci, ut consequat erat turpis vitae enim. Nunc facilisis purus sit amet leo posuere, vel lacinia tortor dictum. Maecenas pharetra malesuada eros, eget venenatis justo. Vivamus vehicula aliquam risus, ac ultricies elit pharetra vel. Phasellus gravida erat ac urna congue, sed tempor justo egestas. Sed malesuada, eros non malesuada sollicitudin, nisi velit vehicula nulla, nec volutpat arcu dolor at enim. Ut mollis justo purus, sit amet viverra augue venenatis non. \nNam sodales, lacus et cursus condimentum, odio odio pellentesque ligula, sit amet varius eros magna quis ligula. Aenean gravida ipsum et ipsum consequat interdum. Nullam at leo nec felis tincidunt aliquet. Sed in tempor felis. Integer sit amet sodales lorem. Suspendisse eu massa risus. Cras vulputate metus eu tortor euismod, ac faucibus mi maximus. Nulla suscipit interdum convallis. Donec rhoncus felis at viverra aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam elementum, velit in tincidunt laoreet, justo magna fringilla ipsum, vel vulputate diam lectus id ex. Proin dictum viverra libero, at dictum tortor viverra sit amet."
+    },
+    {
+      "id": "kid",
+      "name": "儿童事工",
+      "pic": "ministry/cover_儿童事工.jpg",
+      "time": "周一下午五点",
+      "host": "待定",
+      "contact": "+1(415)-xxx-xxxx",
+      "shortDesc": "儿童事工致力于为孩子们创造一个安全、有趣的环境，使他们从小认识神、学习圣经真理。通过主日学、敬拜、手工活动、游戏和特别的节日庆祝，帮助孩子们在信仰中扎根，培养他们对耶稣的爱与信靠。儿童事工也注重与家庭合作，帮助父母在日常生活中引导孩子的属灵成长。",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean vehicula maximus eros, sit amet convallis ex tristique sed. Nam vehicula, justo eu aliquam dignissim, orci dolor luctus risus, nec convallis enim felis ut est. In interdum erat eget ipsum dapibus, ut egestas purus interdum. Proin vehicula vestibulum nulla, sit amet dignissim enim consequat id. Aenean et lacus libero. Fusce non est vitae nulla vehicula malesuada eget ac eros. Curabitur bibendum, sem a condimentum faucibus, lorem mi bibendum orci, ut consequat erat turpis vitae enim. Nunc facilisis purus sit amet leo posuere, vel lacinia tortor dictum. Maecenas pharetra malesuada eros, eget venenatis justo. Vivamus vehicula aliquam risus, ac ultricies elit pharetra vel. Phasellus gravida erat ac urna congue, sed tempor justo egestas. Sed malesuada, eros non malesuada sollicitudin, nisi velit vehicula nulla, nec volutpat arcu dolor at enim. Ut mollis justo purus, sit amet viverra augue venenatis non. \nNam sodales, lacus et cursus condimentum, odio odio pellentesque ligula, sit amet varius eros magna quis ligula. Aenean gravida ipsum et ipsum consequat interdum. Nullam at leo nec felis tincidunt aliquet. Sed in tempor felis. Integer sit amet sodales lorem. Suspendisse eu massa risus. Cras vulputate metus eu tortor euismod, ac faucibus mi maximus. Nulla suscipit interdum convallis. Donec rhoncus felis at viverra aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam elementum, velit in tincidunt laoreet, justo magna fringilla ipsum, vel vulputate diam lectus id ex. Proin dictum viverra libero, at dictum tortor viverra sit amet."
+    },
+    {
+      "id": "mission",
+      "name": "宣教",
+      "pic": "ministry/cover_宣教.png",
+      "time": "周一下午五点",
+      "host": "待定",
+      "contact": "+1(415)-xxx-xxxx",
+      "shortDesc": "宣教事工的使命是将福音传遍世界，回应耶稣的大使命。通过支持全球和本地的宣教士、短期宣教队伍及社会关怀活动，教会积极参与将基督的爱带给未得之民与有需要的群体。宣教事工不仅注重传扬福音，还通过教育、医疗和社区发展等方式，实际帮助改善生活，彰显神的爱与怜悯。每个信徒都被鼓励成为福音的见证者，无论在本地还是全球，活出使命。",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean vehicula maximus eros, sit amet convallis ex tristique sed. Nam vehicula, justo eu aliquam dignissim, orci dolor luctus risus, nec convallis enim felis ut est. In interdum erat eget ipsum dapibus, ut egestas purus interdum. Proin vehicula vestibulum nulla, sit amet dignissim enim consequat id. Aenean et lacus libero. Fusce non est vitae nulla vehicula malesuada eget ac eros. Curabitur bibendum, sem a condimentum faucibus, lorem mi bibendum orci, ut consequat erat turpis vitae enim. Nunc facilisis purus sit amet leo posuere, vel lacinia tortor dictum. Maecenas pharetra malesuada eros, eget venenatis justo. Vivamus vehicula aliquam risus, ac ultricies elit pharetra vel. Phasellus gravida erat ac urna congue, sed tempor justo egestas. Sed malesuada, eros non malesuada sollicitudin, nisi velit vehicula nulla, nec volutpat arcu dolor at enim. Ut mollis justo purus, sit amet viverra augue venenatis non. \nNam sodales, lacus et cursus condimentum, odio odio pellentesque ligula, sit amet varius eros magna quis ligula. Aenean gravida ipsum et ipsum consequat interdum. Nullam at leo nec felis tincidunt aliquet. Sed in tempor felis. Integer sit amet sodales lorem. Suspendisse eu massa risus. Cras vulputate metus eu tortor euismod, ac faucibus mi maximus. Nulla suscipit interdum convallis. Donec rhoncus felis at viverra aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam elementum, velit in tincidunt laoreet, justo magna fringilla ipsum, vel vulputate diam lectus id ex. Proin dictum viverra libero, at dictum tortor viverra sit amet."
+    }
+  ]
+}

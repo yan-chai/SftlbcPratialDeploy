@@ -17,7 +17,7 @@ export async function getSlider() {
 
 export async function getCover() {
   console.log('call');
-  return request(host + '/api/card-banners', {
+  return request(host + '/api/covers', {
     method: 'get',
   })
     .then((res) => {

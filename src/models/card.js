@@ -38,6 +38,9 @@ export default {
           pathname === '/ministry' ||
           pathname === '/englishBibleGroup' ||
           pathname === '/adult' ||
+          pathname === '/fellowship' ||
+          pathname === '/kid' ||
+          pathname === '/mission' ||
           pathname === '/pray'
         ) {
           dispatch({
