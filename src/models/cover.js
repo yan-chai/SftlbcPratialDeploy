@@ -1,11 +1,11 @@
-import { getYears } from './service';
+import { getCover } from './service.js';
 
 export default {
-  namespace: 'years',
+  namespace: 'cover',
   state: [],
   reducers: {
-    getYears(state, { payload }) {
-      if (payload == null) {
+    getCover(state, { payload }) {
+      if (payload == null || payload.length == 0) {
         return state;
       }
       let newState = state;
@@ -17,15 +17,15 @@ export default {
     *getRemote(action, { select, call, put }) {
       const curr = yield select((state) => state);
       let data = null;
-      if (curr.years.length == 0) {
-        data = yield call(getYears);
+      if (curr.cover.length == 0) {
+        data = yield call(getCover);
         yield put({
-          type: 'getYears',
+          type: 'getCover',
           payload: data,
         });
       } else {
         yield put({
-          type: 'getYears',
+          type: 'getCover',
           payload: data,
         });
       }
@@ -34,7 +34,7 @@ export default {
   subscriptions: {
     setup({ dispatch, history }) {
       history.listen(({ pathname }) => {
-        if (pathname === '/resource') {
+        if (pathname === '/') {
           dispatch({
             type: 'getRemote',
           });

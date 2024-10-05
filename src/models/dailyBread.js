@@ -1,11 +1,11 @@
-import { getYears } from './service';
+import { getDailyBread } from './service.js';
 
 export default {
-  namespace: 'years',
+  namespace: 'dailyBread',
   state: [],
   reducers: {
-    getYears(state, { payload }) {
-      if (payload == null) {
+    getDailyBread(state, { payload }) {
+      if (payload == null || payload.length == 0) {
         return state;
       }
       let newState = state;
@@ -17,15 +17,15 @@ export default {
     *getRemote(action, { select, call, put }) {
       const curr = yield select((state) => state);
       let data = null;
-      if (curr.years.length == 0) {
-        data = yield call(getYears);
+      if (curr.card.length == 0) {
+        data = yield call(getDailyBread);
         yield put({
-          type: 'getYears',
+          type: 'getDailyBread',
           payload: data,
         });
       } else {
         yield put({
-          type: 'getYears',
+          type: 'getDailyBread',
           payload: data,
         });
       }
@@ -34,7 +34,7 @@ export default {
   subscriptions: {
     setup({ dispatch, history }) {
       history.listen(({ pathname }) => {
-        if (pathname === '/resource') {
+        if (pathname === '/') {
           dispatch({
             type: 'getRemote',
           });

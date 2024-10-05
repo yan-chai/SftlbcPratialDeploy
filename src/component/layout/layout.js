@@ -1,113 +1,161 @@
 import React, { useState } from 'react';
-import { Link, history} from 'umi';
-import { Typography } from 'antd';
-import './layout.less'
-import {SearchOutlined} from "@ant-design/icons";
-import { Breadcrumb, Layout, Menu, Input, Carousel} from 'antd';
+import { Link, history } from 'umi';
+import { Typography, Card, Col, Row } from 'antd';
+import './layout.less';
+import {
+  FacebookFilled,
+  YoutubeFilled,
+  UpCircleFilled,
+} from '@ant-design/icons';
+import { Breadcrumb, Layout, Menu, Input, Carousel } from 'antd';
 const { Header, Content, Footer } = Layout;
 
 const items = [
-    {
-      label: (<Link to={'/'}>首页</Link>),
-      key: 'index',
-    },
-    {
-      label: (<Link to={"/about"}>关于我们</Link>),
-      key: 'about',
-    },
-    {
-      label: (<Link to={"/worship"}>主日崇拜</Link>),
-      key: 'worship',
-    },
-    {
-      label: (<div style={{color: 'rgba(0, 0, 0, 0.65)'}}>教会事工</div>),
-      key: 'ministry',
-      children: [
-        {
-          type: 'group',
-          label: 'Item 2',
-          children: [
-            {
-              label: 'Option 3',
-              key: 'setting:3',
-            },
-            {
-              label: 'Option 4',
-              key: 'setting:4',
-            },
-          ],
-        },
-      ],
-    },
-    {
-        label: (<div style={{color: 'rgba(0, 0, 0, 0.65)'}}>教会资源</div>),
-        key: 'resource',
-        children: [
-          {
-            label: (<Link to={'/article'}>每日灵修</Link>),
-            key: 'article'
-          },
-          {
-            label: (<Link to={'/form'}>表格下载</Link>),
-            key: 'form'
-          },
-        ],
+  {
+    label: '首页',
+    key: '',
+  },
+  {
+    label: '教会事工',
+    key: 'ministry',
+  },
+  {
+    label: '活动见证',
+    key: 'testimony',
+  },
+  {
+    label: '新人指南',
+    key: 'new',
+  },
+  {
+    label: '教会资源',
+    key: 'resource',
+  },
+  {
+    label: <Link to={'/about'}>关于真光</Link>,
+    key: 'about',
+  },
+  {
+    label: (
+      <div style={{ color: 'rgba(0, 0, 0, 0.65)' }}>
+        <img src="language.svg" />
+      </div>
+    ),
+    key: 'language',
+    children: [
+      {
+        type: 'group',
+        label: 'English',
       },
-    {
-        label: (<Link to={"activate"}>教会活动</Link>),
-        key: 'activate',
-    },
-    {
-        label: (<Link to={"new"}>新人指南</Link>),
-        key: 'new',
-    },
-    {
-      label: (<Link to={"/search"}>搜索</Link>),
-      key: 'search',
-      icon: <SearchOutlined />,
-    },
-  ];
-
-function onSearch(value) {
-    console.log(value);
-}
+      {
+        type: 'group',
+        label: '简体中文',
+      },
+    ],
+  },
+];
 
 function PageLayout(props) {
-    
-    return (
-        <Layout className="layout">
-            <Header style={{backgroundColor: "white"}}>
-            <div style={{float: "left", verticalAlign: "middle", marginLeft:'2%'}}>
-            <Link to={"/"}><img src="/favicon.ico" style={{height: '50px'}} /></Link>
-            </div>
-            <Menu
-              style={{justifyContent: 'right', alignContent: "center"}}
-                mode="horizontal"
-                items={items}
-            />
-            <div style={{float: 'right', verticalAlign: "middle"}}>
-                
-            </div>
-            
-            </Header>
-            <Content
-            style={{
-              backgroundColor: "white"
-            }}
-            >
-            <div className="site-layout-content" style={{marginTop: '1%', marginBottom: "1%"}}>
-            {props.children}
-            </div>
-            </Content>
-            <Footer
-            style={{
-                textAlign: 'center',
-            }}
-            >
-            CopyRight ©2022 , San Francisco True Light Baptist Church.  All Rights Reserved.<br/>
-            Designed by Lian, Zheng Wei. Created by Haoyu Yan
-            </Footer>
-        </Layout>
-    )
+  function onClick(e) {
+    history.push('/' + e.key);
+  }
+  return (
+    <Layout className="layout">
+      <Header style={{ backgroundColor: 'white' }}>
+        <div
+          style={{ float: 'left', verticalAlign: 'middle', marginLeft: '5%' }}
+        >
+          <Link to={'/'} style={{ color: 'black', fontSize: 'large' }}>
+            <img src="logo.svg" style={{ height: '50px' }} />
+            &nbsp;&nbsp;真光浸信會
+          </Link>
+        </div>
+        <Menu
+          style={{
+            justifyContent: 'right',
+            alignContent: 'center',
+            marginRight: '5%',
+          }}
+          mode="horizontal"
+          items={items}
+          selectedKeys={props.curr}
+          onClick={onClick}
+        />
+      </Header>
+      <Content
+        style={{
+          backgroundColor: 'white',
+        }}
+      >
+        <div
+          className="site-layout-content"
+          style={{
+            marginTop: '1%',
+            marginBottom: '1%',
+            marginLeft: '7%',
+            marginRight: '7%',
+          }}
+        >
+          {props.children}
+        </div>
+      </Content>
+      <Footer
+        style={{
+          textAlign: 'center',
+          backgroundColor: '#873800',
+          color: 'white',
+        }}
+      >
+        <Row style={{ opacity: '75%', fontSize: '24px' }}>
+          <Col span={8}>
+            <Link to={'/'} style={{ color: '#FFFFFF' }}>
+              <img src="/logo.svg" style={{ height: '70px' }} />
+              &nbsp;&nbsp;真光浸信會
+            </Link>
+          </Col>
+          <Col span={6}>
+            <Row> 4250 Judah St.</Row>
+            <Row> San Francisco, CA 94122</Row>
+            <Row> 415-681-7687</Row>
+            <Row> info@sftlbc.org</Row>
+          </Col>
+          <Col span={4} style={{ fontSize: '24px' }}>
+            <Row> 教會事工</Row>
+            <Row> 活動見證</Row>
+            <Row> 新人指引</Row>
+            <Row> 教會資源</Row>
+            <Row> 關於真光</Row>
+          </Col>
+          <Col span={4}>
+            <Row>
+              {' '}
+              Facebook&nbsp;&nbsp;
+              <FacebookFilled style={{ fontSize: '24px' }} />
+            </Row>
+            <Row>
+              {' '}
+              YouTube&nbsp;&nbsp;&nbsp;
+              <YoutubeFilled style={{ fontSize: '24px' }} />
+            </Row>
+          </Col>
+          <Col span={2}>
+            <Row>
+              {' '}
+              <UpCircleFilled
+                style={{ fontSize: '300%' }}
+                onClick={() => {
+                  scrollTo(0, 0);
+                }}
+              />
+            </Row>
+          </Col>
+        </Row>
+        <Row style={{ marginTop: '2%' }}>
+          <Col span={14}></Col>
+          <p style={{ opacity: '60%' }}>© 2022 All rights reserved</p>
+        </Row>
+      </Footer>
+    </Layout>
+  );
 }
 export default PageLayout;
