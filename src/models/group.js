@@ -17,7 +17,7 @@ export default {
     *getRemote(action, { select, call, put }) {
       const curr = yield select((state) => state);
       let data = null;
-      if (curr.card.length == 0) {
+      if (curr.group.length == 0) {
         data = yield call(getGroup);
         yield put({
           type: 'getGroup',
@@ -34,7 +34,9 @@ export default {
   subscriptions: {
     setup({ dispatch, history }) {
       history.listen(({ pathname }) => {
-        if (pathname == '/pray' || pathname == '/ministry') {
+        console.log('Path: ' + pathname);
+        if (pathname === '/pray') {
+          console.log('Path: ' + pathname);
           dispatch({
             type: 'getRemote',
           });

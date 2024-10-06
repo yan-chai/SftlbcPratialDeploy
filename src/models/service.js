@@ -15,10 +15,12 @@ export async function getCover() {
 }
 
 export async function getCard() {
+  console.log('Get Card');
   return cards;
 }
 
 export async function getGroup() {
+  console.log('Get group');
   return groups;
 }
 /*export async function getSlider() {

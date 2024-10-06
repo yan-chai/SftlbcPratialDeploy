@@ -3,26 +3,6 @@ import { Row, Col } from 'antd';
 import { history } from 'umi';
 import AboutLayout from './aboutLayout';
 
-function getItem(label, key, icon, children, type) {
-  return {
-    key,
-    icon,
-    children,
-    label,
-    type,
-  };
-}
-const items = [
-  getItem('教会简史', 'about'),
-  getItem('教会会章', 'constitution'),
-  getItem('信仰宣言', 'faith'),
-  getItem('认识我们', 'knowus'),
-  getItem('奉献支持', 'support'),
-];
-const onClick = (e) => {
-  console.log(e);
-  history.push(e.key);
-};
 const content = (
   <>
     <p className="t5">教會會章</p>

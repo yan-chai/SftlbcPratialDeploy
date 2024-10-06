@@ -21,7 +21,7 @@ const items = [
 ];
 const onClick = (e) => {
   console.log(e);
-  history.push(e.key);
+  history.push('/' + e.key);
 };
 export default function AboutLayout(props) {
   return (

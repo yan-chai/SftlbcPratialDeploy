@@ -13,10 +13,6 @@ function getItem(label, key, icon, children, type) {
   };
 }
 
-const onClick = (e) => {
-  console.log('click', e);
-  history.push(e.key);
-};
 export default function MinistryLayout(props) {
   let items = [];
   items.push(getItem('总览', 'ministry'));
@@ -37,7 +33,7 @@ export default function MinistryLayout(props) {
       <Row style={{ marginTop: '5%' }}>
         <Col span={6}>
           <Menu
-            onClick={onClick}
+            onClick={(e) => history.push(e.key)}
             style={{
               width: '80%',
             }}

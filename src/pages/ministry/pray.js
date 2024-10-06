@@ -24,8 +24,9 @@ const columns = [
 ];
 function Pray(props) {
   if (
+    props.loading.effects['group/getRemote'] ||
     props.loading.effects['card/getRemote'] ||
-    props.loading.effects['group/getRemote']
+    props.group.length === 0
   ) {
     return (
       <div>
@@ -33,23 +34,22 @@ function Pray(props) {
       </div>
     );
   } else {
-    const remain = (
-      <>
-        <p className="t5">各祷告小组及联络人</p>
-        <Table
-          columns={columns}
-          dataSource={props.group[0].data}
-          pagination={false}
-          style={{ marginBottom: '5%' }}
-        />
-      </>
-    );
     return (
       <>
         <MinistryDetail
           highLight={'pray'}
           data={props.card[0].data}
-          remain={remain}
+          remain={
+            <>
+              <p className="t5">各祷告小组及联络人</p>
+              <Table
+                columns={columns}
+                dataSource={props.group[0].data}
+                pagination={false}
+                style={{ marginBottom: '5%' }}
+              />
+            </>
+          }
         />
       </>
     );
