@@ -1,7 +1,7 @@
 import { request } from 'umi';
 
 //const host = 'http://localhost:8000';
-const host = 'https://sftlbc.vercel.app/';
+const host = 'https://localhost/';
 
 export async function getSlider() {
   console.log('call');
