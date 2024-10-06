@@ -23,6 +23,7 @@ export default function MinistryDetail(props) {
           }}
         />
       </Row>
+      {props.remain}
     </>
   );
   return (
@@ -30,6 +31,7 @@ export default function MinistryDetail(props) {
       highLight={props.highLight}
       content={content}
       data={props.data}
+      remain={props.remain}
     />
   );
 }

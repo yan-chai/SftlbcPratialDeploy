@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "name": "祷告一家",
+      "host": "刘伟弟兄",
+      "contact": "+1(415)-xxx-xxxx",
+      "time": "礼拜日早九点"
+    },
+    {
+      "name": "祷告二家",
+      "host": "马中道弟兄",
+      "contact": "+1(415)-xxx-xxxx",
+      "time": "礼拜日早九点"
+    },
+    {
+      "name": "祷告三家",
+      "host": "史圣筠弟兄",
+      "contact": "+1(415)-xxx-xxxx",
+      "time": "礼拜日早九点"
+    },
+    {
+      "name": "祷告小家",
+      "host": "杨雅改姐妹",
+      "contact": "+1(415)-xxx-xxxx",
+      "time": "礼拜日早九点"
+    },
+    {
+      "name": "姐妹祷告小组",
+      "host": "林月儿姐妹",
+      "contact": "+1(415)-xxx-xxxx",
+      "time": "礼拜日早九点"
+    },
+    {
+      "name": "感恩祷告小组",
+      "host": "赖丽生姐妹",
+      "contact": "+1(415)-xxx-xxxx",
+      "time": "礼拜日早九点"
+    },
+    {
+      "name": "恩友祷告小组",
+      "host": "邵金国弟兄",
+      "contact": "+1(415)-xxx-xxxx",
+      "time": "礼拜日早九点"
+    }
+  ]
+}
