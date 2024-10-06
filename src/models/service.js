@@ -1,9 +1,27 @@
 import { request } from 'umi';
+import slider from '../../mock/slides.json';
+import covers from '../../mock/covers.json';
+import cards from '../../mock/cards.json';
+import groups from '../../mock/groups.json';
 
 //const host = 'http://localhost:8000';
-const host = 'https://localhost';
 
 export async function getSlider() {
+  return slider;
+}
+
+export async function getCover() {
+  return covers;
+}
+
+export async function getCard() {
+  return cards;
+}
+
+export async function getGroup() {
+  return groups;
+}
+/*export async function getSlider() {
   console.log('call');
   return request(host + '/api/slide-banners', {
     method: 'get',
@@ -159,4 +177,4 @@ export async function getKids() {
     .catch((error) => {
       console.log(error);
     });
-}
+}*/
